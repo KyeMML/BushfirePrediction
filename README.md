@@ -10,7 +10,7 @@ NASA dataset: https://firms.modaps.eosdis.nasa.gov/download/
 ## ERA5 Dataset
 The ERA5 dataset contains the following temporal variables:
 
-## Divergence
+Divergence
 Fraction of cloud cover
 Geopotential
 Ozone mass mixing ratio
