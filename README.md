@@ -10,26 +10,28 @@ NASA dataset: https://firms.modaps.eosdis.nasa.gov/download/
 ## ERA5 Dataset
 The ERA5 dataset contains the following temporal variables:
 
-Divergence
-Fraction of cloud cover
-Geopotential
-Ozone mass mixing ratio
-Potential vorticity
-Relative humidity
-Specific cloud ice water content
-Specific cloud liquid water content
-Specific humidity
-Specific rain water content
-Specific snow water content
-Temperature
-U component of wind
-V component of wind
-Vertical velocity
-Vorticity (relative)
-As well as the following location variables:
-latitude
-longtitude
-time
+Divergence  
+Fraction of cloud cover  
+Geopotential  
+Ozone mass mixing ratio  
+Potential vorticity  
+Relative humidity  
+Specific cloud ice water content  
+Specific cloud liquid water content  
+Specific humidity  
+Specific rain water content  
+Specific snow water content  
+Temperature  
+U component of wind  
+V component of wind  
+Vertical velocity  
+Vorticity (relative)  
+
+As well as the following location variables:  
+latitude  
+longtitude  
+time  
+
 The latitude and longtitude was removed from the dataset to transform the data into a two dimensional dataframe. Time was translated into a date format in datetime type.
 Temporal variables were averaged across latitude and longtitude, grouped by date. This is only possible because the latitude and longtitude area covered is very small, covering only Kangaroo island.
 
